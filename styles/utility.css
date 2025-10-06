@@ -1,0 +1,17 @@
+/* Utility class*/
+.grid{
+  display: grid;
+}
+
+.grid-flow-column{
+  grid-auto-flow: column;
+}
+
+.grid-col2{
+  grid-template-columns: 1fr 1fr;
+}
+
+.gap-16{
+  gap: 16px;
+}
+
