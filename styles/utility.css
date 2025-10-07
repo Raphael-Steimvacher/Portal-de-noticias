@@ -15,16 +15,18 @@
   gap: 16px;
 }
 
-.card{
-  position: relative;
-
-  &::before{
-    content: "";
-    position: absolute;
-    inset: 0;
-    top: 50%;
-    background: linear-gradient(180deg, transparent 0% , #020617 100%);
-
-  }
+.text-2xl{
+  font: var(--h1);
 }
 
+.text-xl{
+  font: var(--h2);
+}
+
+.text-lg{
+  font: var(--h3);
+}
+
+.text-sm{
+  font: var(--text-sm);
+}
